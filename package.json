@@ -1,0 +1,50 @@
+{
+  "author": "EveTeam",
+  "bin": {
+    "rhoda-qa_lint": "lint.js",
+    "rhoda-qa_test": "test.js"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.8.3",
+    "babel-polyfill": "^6.26.0",
+    "codelyzer": "^4.0.2",
+    "express": "^4.16.2",
+    "jasmine-core": "^2.8.0",
+    "karma": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-typescript-preprocessor": "^0.3.1",
+    "phantomjs-prebuilt": "^2.1.16",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.8.0"
+  },
+  "description": "Eve Quality Assessment",
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "name": "@rhoda/qa",
+  "peerDependencies": {
+    "@angular/animations": "^5.1.2",
+    "@angular/common": "^5.1.2",
+    "@angular/compiler": "^5.1.2",
+    "@angular/compiler-cli": "^5.1.2",
+    "@angular/core": "^5.1.2",
+    "@angular/forms": "^5.1.2",
+    "@angular/http": "^5.1.2",
+    "@angular/platform-browser": "^5.1.2",
+    "@angular/platform-browser-dynamic": "^5.1.2",
+    "@angular/platform-server": "^5.1.2",
+    "@angular/router": "^5.1.2",
+    "@angular/upgrade": "^5.1.2",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.6.2",
+    "zone.js": "^0.8.18"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git@github.com:gcca/-eve-qa.git",
+  "version": "1.0.0"
+}
